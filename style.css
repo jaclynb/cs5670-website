@@ -1,13 +1,44 @@
-body {
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif;
-  color: black;
-  background-color: #c0c0c0 }
+/* Color scheme - base #c0c0c0; dark #404040; light #8d8d8d; accent-dark #402323; accent-light #ca9e9e; */
 
-header {
+body {
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: #404040;
+  margin: 0;
+}
+
+header, footer {
+	color: #c0c0c0;
+	text-align: center;
+	border-bottom: solid thick;
+	border-top: solid thick;
+}
+
+h1, h2 {
 	text-align: center;
 }
 
-footer {
-	text-align: center;
+.main {
+	display: flex;
+	background-color: white;
+	padding: 1%;
+}
+
+.half-width {
+	width: 50%;
+}
+
+a {
+	color: #8D8D8D;
+}
+
+a:visited {
+	color: #402323;
+}
+
+a:hover, a:focus { 
+	text-decoration: none;
+}
+
+a:active {
+	padding-top: 2px;
 }
